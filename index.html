@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">F.Kash's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">F.Kash</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="faiz.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <slection class="sel1">
+        <div class="image">
+          <img src="downphoto.png" />
+        </div>
+      </slection>
+
+      <selection class="sel2">
+        <div class="aboutme">
+          About me
+          <div class="who">Who is <span id="kash"> F.Kash Graphics</span></div>
+          <div class="para">
+            <p>
+              Main ek multifaceted creative professional hoon, jo Graphic Design
+              aur Video Post-Production mein maharat rakhta hoon. Mera approach
+              "Value-First" hota hai, jahan main technical skills aur artistic
+              vision ke saath creators aur brands ki growth mein madad karta
+              hoon
+            </p>
+          </div>
+        </div>
+        <div class="about">
+          <div class="collabs">
+            About more
+            <a href="https://www.instagram.com/f.kash04/" target="main">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </selection>
+      <div class="lastline"></div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Video Editor",
+          "Graphic Designer",
+          "Conent Writer",
+          "Script Writer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
