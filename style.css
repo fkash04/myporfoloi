@@ -138,8 +138,20 @@ footer {
     align-items: center;
 }
 
-.image img {
+.image {
+    position: relative;
     width: 400px;
+}
+
+#overly {
+    position: absolute;
+    margin-left: -420px;
+    width: 400px;
+
+}
+#back {
+    width: 400px;
+    margin-top: 14px;
 }
 
 .sel2 {
@@ -184,5 +196,21 @@ footer {
 
 .lastline {
     background-color: white;
-    hieght: 40px;
+    height: 40px;
+}
+
+.vid {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 100px;
+    width: 190px;
+    color: rgb(255, 255, 255);
+}
+
+.year {
+     width: 190px
+}
+
+.ex {
+    color: rgb(137, 137, 137);
 }
