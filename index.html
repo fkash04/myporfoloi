@@ -1,121 +1,461 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>F.Kash | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="blur one"></div>
+    <div class="blur two"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
     <header>
-      <nav>
-        <div class="left">F.Kash's Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Project</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
+
+        <nav>
+
+            <div class="logo">
+                F.Kash<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <a href="#contact" class="hire-btn">
+
+                Hire Me
+
+            </a>
+
+        </nav>
+
     </header>
 
-    <main>
-      <section class="firstsection">
-        <div class="leftsection">
-          Hi, My name is <span class="purple">F.Kash</span>
-          <div>and I am a passionate</div>
-          <span id="element"></span>
-        </div>
-        <div class="rightsection">
-          <img src="faiz.png" alt="" />
-        </div>
-      </section>
-      <hr />
-      <section class="secondsection">
-        <span class="text-gray">What I have done so far</span>
-        <h1>Work Experience</h1>
+    <!-- ================= HERO ================= -->
 
-        <div class="box">
-          <div class="vertical">
-            <div class="vid">Video Editing</div>
-            <div class="year">+1 year
-              <div class="ex">Professional</div>
-              <div class="ex"> Insta reels</div> 
-              <div class="ex">Youtube Vlogs</div> 
-              <div class="ex">Cinematic</div>         
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <p class="hello">
+                Hello 👋 I'm
+            </p>
+
+            <h1>
+
+                F.Kash
+
+            </h1>
+
+            <h2>
+
+                <span id="element"></span>
+
+            </h2>
+
+            <p class="hero-text">
+
+                I help creators and brands grow with stunning Graphic Designs,
+                Professional Video Editing and engaging content that attracts
+                attention and delivers results.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn">
+
+                    Hire Me
+
+                </a>
+
+                <a href="#about" class="btn-outline">
+
+                    About Me
+
+                </a>
+
             </div>
-          </div>
-          <div class="vertical">
-            <div class="vid">HTML & CSS</div>
-            <div class="year">6 Month</div>
-          </div>
-          <div class="vertical">
-            <div class="vid">Graphic Designer</div>
-            <div class="year">+2 Year</div>
-          </div>
-          <div class="vertical">
-            <div class="vid">Content Writer</div>
-            <div class="year">4 Years</div>
-          </div>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+
         </div>
-      </section>
-    </main>
+
+        <div class="hero-right">
+
+            <div class="profile-card">
+
+                <img src="images/faiz.png" alt="Profile">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <div class="about-image">
+
+            <img src="images/downphoto.png" alt="">
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-title">
+
+                About Me
+
+            </span>
+
+            <h2>
+
+                Creative Designer & Video Editor
+
+            </h2>
+
+            <p>
+
+                Main ek multifaceted creative professional hoon jo Graphic
+                Design, Video Editing aur Content Creation mein specialize karta
+                hoon. Mera goal sirf beautiful visuals banana nahi balki brands
+                ko grow karna hai through engaging and high-quality content.
+
+            </p>
+
+            <div class="stats">
+
+                <div class="stat">
+
+                    <h3>4+</h3>
+
+                    <span>Years Writing</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3>2+</h3>
+
+                    <span>Years Designing</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3>1+</h3>
+
+                    <span>Years Editing</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills" id="skills">
+
+        <span class="section-title">
+
+            My Skills
+
+        </span>
+
+        <h2>
+
+            What I Do
+
+        </h2>
+
+        <div class="skill-grid">
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-video"></i>
+
+                <h3>Video Editing</h3>
+
+                <p>
+
+                    Cinematic videos, YouTube edits, Reels and Shorts.
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-pen-nib"></i>
+
+                <h3>Graphic Design</h3>
+
+                <p>
+
+                    Posters, Branding, Social Media Designs and Logos.
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-file-pen"></i>
+
+                <h3>Content Writing</h3>
+
+                <p>
+
+                    SEO articles, Scripts and engaging social media content.
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-camera"></i>
+
+                <h3>Creative Direction</h3>
+
+                <p>
+
+                    Complete visual storytelling for creators and businesses.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience" id="experience">
+
+        <span class="section-title">
+
+            Experience
+
+        </span>
+
+        <h2>
+
+            My Journey
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Video Editing
+
+                </h3>
+
+                <span>
+
+                    1+ Years
+
+                </span>
+
+                <p>
+
+                    Professional editing, Reels, Shorts, YouTube, Cinematic
+                    Projects.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Graphic Design
+
+                </h3>
+
+                <span>
+
+                    2+ Years
+
+                </span>
+
+                <p>
+
+                    Posters, Logos, Brand Identity and Social Media Graphics.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    Content Writing
+
+                </h3>
+
+                <span>
+
+                    4 Years
+
+                </span>
+
+                <p>
+
+                    Articles, Scripts, Captions and Creative Writing.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-card">
+
+                <h3>
+
+                    HTML & CSS
+
+                </h3>
+
+                <span>
+
+                    6 Months
+
+                </span>
+
+                <p>
+
+                    Responsive websites and beautiful UI development.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <span class="section-title">
+
+            Contact
+
+        </span>
+
+        <h2>
+
+            Let's Work Together
+
+        </h2>
+
+        <div class="contact-box">
+
+            <div>
+
+                <i class="fas fa-envelope"></i>
+
+                yourmail@gmail.com
+
+            </div>
+
+            <div>
+
+                <i class="fab fa-instagram"></i>
+
+                @f.kash04
+
+            </div>
+
+            <div>
+
+                <i class="fas fa-phone"></i>
+
+                +91 XXXXX XXXXX
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
-      <slection class="sel1">
-        <div class="image">
-          <img id="back" src="back.png" />
-          <img id="overly" src="downphoto.png" />
-        </div>
-      </slection>
 
-      <selection class="sel2">
-        <div class="aboutme">
-          About me
-          <div class="who">Who is <span id="kash"> F.Kash Graphics</span></div>
-          <div class="para">
-            <p>
-              Main ek multifaceted creative professional hoon, jo Graphic Design
-              aur Video Post-Production mein maharat rakhta hoon. Mera approach
-              "Value-First" hota hai, jahan main technical skills aur artistic
-              vision ke saath creators aur brands ki growth mein madad karta
-              hoon
-            </p>
-          </div>
-        </div>
-        <div class="about">
-          <div class="collabs">
-            About more
-            <a href="https://www.instagram.com/f.kash04/" target="main">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-      </selection>
-      <div class="lastline"></div>
+        <h3>
+
+            F.Kash
+
+        </h3>
+
+        <p>
+
+            © 2026 All Rights Reserved
+
+        </p>
+
     </footer>
-    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "Video Editor",
-          "Graphic Designer",
-          "Conent Writer",
-          "Script Writer",
-        ],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
